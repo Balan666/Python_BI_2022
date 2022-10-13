@@ -37,5 +37,3 @@ def main(input_fastq, output_file_prefix, gc_bounds=(0, 100), length_bounds=(0, 
             elif save_filtered:
                 print_func(output_file_prefix + '\\_failed.fastq', file, i)
 
-main('C:\\Users\\bananna\\PycharmProjects\\pythonHW1\\test.fastq', 'C:\\Users\\bananna\\PycharmProjects\\pythonHW1\\',
-     length_bounds=50, save_filtered=True)
