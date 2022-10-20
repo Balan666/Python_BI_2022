@@ -1,12 +1,12 @@
-A repository for handing all the ~~homeworks~~ on Python.
-Homework3 (environments and modules)
+A repository for handing all the *homeworks* on Python.
+# Homework3 (environments and modules)
 
-<h3>Python version</h3>
+### Python version
 
 This program you should have Python3.10 at least, for example, Python 3.10.6. You can get it through running this line in terminal:
 `sudo apt install python3.10`
 
-<h3>OS</h3>
+### OS
 
 Note that Python 3.10 cannot be used on Windows 7 or earlier!
 
@@ -30,7 +30,7 @@ You can check your version with this line:
 
 — — —
 
-<h3>Instructions for starting the program</h3>
+### Instructions for starting the program
 
 Create a new envoronment:
 `python3.10 -m venv <Environment_name>`
@@ -38,7 +38,7 @@ Create a new envoronment:
 Activate it:
 `source environment/bin/activate`
 And go to the site packages folder:
-`cd ~/environment/lib/python3.10/site-packages/
+`cd ~/environment/lib/python3.10/site-packages/`
 
 Download the **requirements.txt** file and install all the modules from there. You can do this with just one line:
 `pip install -r requirements.txt`
@@ -47,7 +47,3 @@ Now you should be able to run the code.
 
 go back:
 `cd ~/environment/`
-
-download the code and run it!
-
-![the result](/home/bananna/Pictures/Itworks.png)
