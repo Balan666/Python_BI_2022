@@ -1,5 +1,4 @@
 import sys
-import numpy as np
 
 def sequential_map(*args):
     object = args[-1]
