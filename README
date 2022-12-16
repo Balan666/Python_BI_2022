@@ -1,2 +1,18 @@
-A repository for handing all the ~~homeworks~~ on Python.
-Made by Balan Anna
+# README
+### About
+These programs can be used instead of Linux commands in terminal.
+##### Options
+    wc with options -l -w -c
+    ls with option -a
+    sort without options
+    rm with option -r
+    cat without options
+
+##### Setting
+to use these programs as commands in command line you have to download them in your working directory (or write the full path to them while use). Then allow executing these files with
+`chmod +x ./command.py`.
+After that you can use them as described below:
+##### Usage example:
+`./wc.py [--option/-o] file.txt`
+Standart libraries are used in the scripts: `sys, os, shutil, subprocess and argparse`. They are preinstalled already in your python version (Python>3.6 is recommended)
+
